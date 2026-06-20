@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# PyInstaller
+pack/dist/
+pack/build/
+pack/*.spec
+
+# Node
+node_modules/
+frontend/node_modules/
+electron-app/node_modules/
+
+# Build outputs
+frontend/dist/
+electron-app/.vite/
+
+# Environment
+.env
+.env.*
+
+# Cookie (don't upload)
+cookie.txt
+
+# Test files
+test_result.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway/Render
+procfile
